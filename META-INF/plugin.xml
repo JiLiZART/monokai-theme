@@ -1,0 +1,23 @@
+<idea-plugin>
+  <id>color.scheme.MonokaiPastelDimmed</id>
+  <name>MonokaiPastelDimmed Color Scheme</name>
+  <version>1.0</version>
+  <vendor email="nk@artkost.ru" url="https://artkost.ru">Nikolay Kostyurin</vendor>
+
+  <description><![CDATA[
+      Variation of Sublime Monokai Color Scheme with dimmed colors
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Initial
+    ]]>
+  </change-notes>
+
+  <idea-version since-build="142.0"/>
+
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <bundledColorScheme path="/colors/MonokaiPastelDimmed"/>
+  </extensions>
+</idea-plugin>
